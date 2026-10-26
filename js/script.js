@@ -53,8 +53,8 @@ $("theme").addEventListener("click", () => {
 /* Status online/offline.
    Offline: tombol game disembunyikan (GitHub tetap tampil). Online: tombol game tampil.
    Nilai awal ada di STATUS. Opsional: isi SHEET_CSV_URL dengan link CSV Google Sheets (sel A1 berisi online/offline). */
-const STATUS = "online";
-const SHEET_CSV_URL = ""; // tempel link CSV Google Sheets di antara tanda kutip
+const STATUS = "offline";
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vToo5Pkhz92qTtMm9TxbiC8pf7fO0o-Oia_no6DaVRy0PKSQj6g-IVDwB7U_BIOy53DD9zbPyVUKg2e/pub?gid=0&single=true&output=csv"; // tempel link CSV Google Sheets di antara tanda kutip
 function applyStatus(v){
   const on = String(v).trim().toLowerCase() !== "offline";
   $("status").textContent = on ? "ONLINE" : "OFFLINE";
