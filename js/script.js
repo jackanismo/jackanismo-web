@@ -8,10 +8,10 @@ const LINKS = [
   { icon:"G", color:"#24292f", title:"GitHub", desc:"Lihat proyek dan kode saya", url:"https://github.com/jackanismo" }
 ];
 const GAMES = [
-  { title:"Mobile Legends", sub:"Mythic Glory", color:"#d9480f", url:"https://m.mobilelegends.com" },
-  { title:"Valorant", sub:"Ascendant 2", color:"#c2255c", url:"https://playvalorant.com" },
-  { title:"Minecraft", sub:"Server survival", color:"#2f8f3a", url:"https://minecraft.net" },
-  { title:"EA FC 26", sub:"Divisi 3", color:"#1971c2", url:"https://ea.com" }
+  { title:"Game Rotate", sub:"since 2025", color:"#d9480f", url:"https://game-rotate.vercel.app" },
+  { title:"Game Menagkap kepala", sub:"since 2026", color:"#c2255c", url:"https://game-menangkap-kepala.vercel.app" },
+  { title:"Game Lompat", sub:"since 2026", color:"#2f8f3a", url:"#" },
+  { title:"Game Nembak", sub:"soon", color:"#1971c2", url:"#" }
 ];
 /* ============================================================ */
 
@@ -53,7 +53,7 @@ $("theme").addEventListener("click", () => {
 /* Status online/offline.
    Offline: tombol game disembunyikan (GitHub tetap tampil). Online: tombol game tampil.
    Nilai awal ada di STATUS. Opsional: isi SHEET_CSV_URL dengan link CSV Google Sheets (sel A1 berisi online/offline). */
-const STATUS = "offline";
+const STATUS = "online";
 const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vToo5Pkhz92qTtMm9TxbiC8pf7fO0o-Oia_no6DaVRy0PKSQj6g-IVDwB7U_BIOy53DD9zbPyVUKg2e/pub?gid=0&single=true&output=csv"; // tempel link CSV Google Sheets di antara tanda kutip
 function applyStatus(v){
   const on = String(v).trim().toLowerCase() !== "offline";
