@@ -8,10 +8,9 @@ const LINKS = [
   { icon:"G", color:"#24292f", title:"GitHub", desc:"Lihat proyek dan kode saya", url:"https://github.com/jackanismo" }
 ];
 const GAMES = [
-  { title:"Game Rotate", sub:"rby-since 2025", color:"#d9480f", url:"https://game-rotate.vercel.app" },
-  { title:"Game Menagkap kepala", sub:"rby,hla,mro,bin-since 2026", color:"#c2255c", url:"https://game-menangkap-kepala.vercel.app" },
-  { title:"Game Lompat", sub:"Claude AI,rby-since 2026", color:"#2f8f3a", url:"#" },
-  { title:"Game Nembak", sub:"rby,hla,mro,bin-since 2027", color:"#1971c2", url:"#" }
+  { title:"Game Rotate", sub:"scratch-2025", color:"#d9480f", url:"https://game-rotate.vercel.app" },
+  { title:"Game Menangkap kepala", sub:"Turbowarp-2026", color:"#c2255c", url:"https://game-menangkap-kepala.vercel.app" },
+  { title:"Game Lompat (BARU)", sub:"Claude AI-2026", color:"#2f8f3a", url:"#" }
 ];
 /* ============================================================ */
 
