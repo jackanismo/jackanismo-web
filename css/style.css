@@ -70,7 +70,6 @@ h2{font-family:"Silkscreen",monospace;font-size:15px;font-weight:700;margin:28px
 .go{flex:none;font-family:"Silkscreen",monospace;font-size:13px;color:var(--muted)}
 
 /* games grid */
-#games{margin-top:22px;padding-top:22px;border-top:2px solid var(--line)}
 #games[hidden]{display:none}
 .notice{margin:16px 0 0;padding:12px 14px;border:2px dashed var(--line);border-radius:10px;text-align:center;font-size:14px;color:var(--muted)}
 .notice[hidden]{display:none}
