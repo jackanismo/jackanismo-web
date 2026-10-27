@@ -5,7 +5,7 @@ const PROFILE = {
   status: "ONLINE"
 };
 const LINKS = [
-  { icon:"G", color:"#24292f", title:"GitHub", desc:"Lihat proyek dan kode saya", url:"https://github.com/jackanismo" }
+  {}
 ];
 const GAMES = [
   { title:"Game Rotate", sub:"scratch-2025", color:"#d9480f", url:"https://game-rotate.vercel.app" },
@@ -21,13 +21,6 @@ $("name").textContent = PROFILE.name;
 $("bio").textContent = PROFILE.bio;
 $("status").textContent = PROFILE.status;
 document.title = PROFILE.name + " – Link Game";
-
-$("links").innerHTML = LINKS.map(l => `
-  <li><a class="cart" style="--c:${esc(l.color)}" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">
-    <span class="tag" aria-hidden="true">${esc(l.icon)}</span>
-    <span class="txt"><span class="name">${esc(l.title)}</span><span class="desc">${esc(l.desc)}</span></span>
-    <span class="go" aria-hidden="true">&gt;&gt;</span>
-  </a></li>`).join("");
 
 $("games").innerHTML = GAMES.map(g => {
   const inner = `
