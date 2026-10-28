@@ -10,7 +10,7 @@ const LINKS = [
 const GAMES = [
   { title:"Game Rotate", sub:"scratch-2025", color:"#d9480f", url:"https://game-rotate.vercel.app" },
   { title:"Game Menangkap kepala", sub:"Turbowarp-2026", color:"#c2255c", url:"https://game-menangkap-kepala.vercel.app" },
-  { title:"Game Lompat (BARU)", sub:"Claude AI-2026", color:"#2f8f3a", url:"#" }
+  { title:"Game Lompat (BARU)", sub:"Claude AI-2026", color:"#2f8f3a", url:"https://game-lompat-online.vercel.app" }
 ];
 /* ============================================================ */
 
